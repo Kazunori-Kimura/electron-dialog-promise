@@ -1,6 +1,5 @@
 "use strict";
-const remote = require('remote');
-const dialog = remote.require('dialog');
+const dialog = require("electron").remote.dialog;
 
 module.exports = {
   /**
