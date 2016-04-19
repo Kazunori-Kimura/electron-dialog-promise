@@ -1,12 +1,20 @@
 {
   "name": "@kazunori-kimura/electron-dialog-promise",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "`electron` の `showOpenDialog` を `promise` で包む",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Kazunori Kimura <kazunori.kimura.js@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazunori-Kimura/electron-dialog-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kazunori-Kimura/electron-dialog-promise/issues"
+  },
+  "homepage": "https://github.com/Kazunori-Kimura/electron-dialog-promise#readme"
 }
