@@ -4,13 +4,12 @@ const dialog = require("electron").remote.dialog;
 module.exports = {
   /**
    * showOpenDialogのPromise対応
-   * @param {object} focusedWindow
    * @param {object} properties
    * @returns {object} Promise
    */
-  showOpenDialogAsync: (focusedWindow, properties) => {
+  showOpenDialogAsync: (properties) => {
     return new Promise((resolve, reject) => {
-      dialog.showOpenDialog(focusedWindow, properties, (items) => {
+      dialog.showOpenDialog(properties, (items) => {
         if (items) {
           resolve(items);
         } else {
