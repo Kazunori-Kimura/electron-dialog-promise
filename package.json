@@ -1,6 +1,6 @@
 {
   "name": "@kazunori-kimura/electron-dialog-promise",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "`electron` の `showOpenDialog` を `promise` で包む",
   "main": "index.js",
   "scripts": {

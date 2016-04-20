@@ -1,6 +1,6 @@
 # @kazunori-kimura/electron-dialog-promise
 
-`electron` の `showOpenDialog` を `promise` で包む
+electron.dialog の各メソッドを `promise` で包む
 
 ## LICENSE
 
